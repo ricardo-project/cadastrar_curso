@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cursos</title>
+        <meta charset=UTF-8>
+        <link rel=stylesheet href="https://fonts.googleapis.com/css?family=Ubuntu">
+        <link rel=stylesheet href="https://fonts.googleapis.com/css?family=Raleway">
+        <link rel=stylesheet href="https://fonts.googleapis.com/css?family=Montserrat">
+        <link rel="shortcut icon" type="image/x-icon" href="https://www.faesa.br/wp-content/themes/faesa/img/course-icon.png">
+        <link rel=stylesheet href="style_CRUD.css">
+    </head>
+    <body>
+        <div>
+            <canvas width=120 height=120></canvas>
+        </div>
+        <header>
+            <img src="https://cdn.icon-icons.com/icons2/1154/PNG/512/1486564399-close_81512.png">
+            <div></div>
+        </header>
+        <main>
+            <fieldset>
+                <img src="https://cdn.icon-icons.com/icons2/516/PNG/512/read_book_study_icon-icons.com_51077.png">
+                <img src="https://www.lyon-bleu.fr/wp-content/uploads/2019/07/student-icon.png">
+                <p><b>Cursos</b></p>
+                <section>
+                    <article>
+                        <div></div>
+                        <div style="margin: 20px 0px">
+                            <div>
+                                <div><p>Nome do curso</p><input type=text class=txt></div>
+                                <div><img></div>
+                            </div>
+                            <div>
+                                <div><p>Código do curso (max. 5 caracteres)</p><input type=text class=txt maxlength=5></div>
+                                <div><img></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <div><p>Nome da matéria</p><input type=text class=txt></div>
+                                <div><img></div>
+                            </div>
+                            <div>
+                                <div><p>Código da matéria (max. 5 caracteres)</p><input type=text class=txt maxlength=5></div>
+                                <div><img></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <div><p>Nome da pessoa</p><input type=text class=txt></div>
+                                <div><img></div>
+                            </div>
+                            <div>
+                                <div><p>Certidão de Pessoa Física (CPF)</p><input type=text class=txt maxlength=11></div>
+                                <div><img></div>
+                            </div>
+                            <div>
+                                <div><p>Registro Geral (RG)</p><input type=text class=txt maxlength=9></div>
+                                <div><img></div>
+                            </div>
+                            <div>
+                                <div><p>Data de nascimento</p><input type=date class=txt></div>
+                                <div><img></div>
+                            </div>
+                            <div>
+                                <div><p>Fone</p><div><select style="width: 20%" class=txt>
+                                    <option value=54>54 (RS)</option>
+                                    <option value=11>11 (SP)</option>
+                                    <option value=21>21 (RJ)</option>
+                                    <option value=27>27 (ES)</option>
+                                    <option value=31>31 (MG)</option>
+                                    <option value=41>41 (PR)</option>
+                                    <option value=48>48 (SC)</option>
+                                    <option value=51>51 (RS)</option>
+                                    <option value=61>61 (DF)</option>
+                                    <option value=62>62 (GO)</option>
+                                    <option value=63>63 (TO)</option>
+                                    <option value=65>65 (MT)</option>
+                                    <option value=67>67 (MS)</option>
+                                    <option value=68>68 (AC)</option>
+                                    <option value=69>69 (RO)</option>
+                                    <option value=71>71 (BA)</option>
+                                    <option value=79>79 (SE)</option>
+                                    <option value=81>81 (PE)</option>
+                                    <option value=82>82 (AL)</option>
+                                    <option value=83>83 (PB)</option>
+                                    <option value=85>84 (RN)</option>
+                                    <option value=86>86 (PI)</option>
+                                    <option value=91>91 (PA)</option>
+                                    <option value=92>92 (AM)</option>
+                                    <option value=95>95 (RR)</option>
+                                    <option value=96>96 (AP)</option>
+                                    <option value=98>98 (MA)</option>
+                                </select><input style="width: 70%; margin-left: 5px" type=text maxlength=8 class=txt></div></div>
+                                <div><img></div>
+                            </div>
+                            <div>
+                                <div><p>E-mail (não é obrigatório)</p><input type=text class=txt></div>
+                                <div><img></div>
+                            </div>
+                            <div>
+                                <div><p>Matrícula (max. 5 caracteres)</p><input type=text maxlength=5 class=txt></div>
+                                <div><img></div>
+                            </div>
+                            <div>
+                                <div><p>Função</p><select class=txt>
+                                    <option></option>
+                                    <option value=0>Aluno</option>
+                                    <option value=1>Professor</option>
+                                </select></div>
+                                <div><img></div>
+                            </div>
+                        </div>
+                        <p id=botoes1><input type=button value="Adicionar">&nbsp;<input type=button value="Limpar tudo"></p>
+                        <p id=botoes2 style="display: none"><input type=button value="Editar"> <input type=button value="Cancelar"></p>
+                    </article>
+                    <article>
+                        <div></div>
+                        <div style="margin: 20px 0px"></div>
+                        <div></div>
+                        <div></div>
+                    </article>
+                </section>
+            </fieldset>
+        </main>
+    </body>
+    <script src="classes.js"></script>
+    <script src="index_CRUD.js"></script>
+</html>
