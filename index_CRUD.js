@@ -228,8 +228,8 @@ function pessoa(condP, oldClass, conjD) {
                     }; campos[4].value = nome
                     campos[5].value = cpf
                     campos[6].value = rg
-                    campos[7].value = ""
-                    campos[9].value = ""
+                    campos[7].value = "2020-9-9"
+                    campos[9].value = fone.substring(2, 4)
                     campos[10].value = email
                     campos[11].value = matricula
                     campos[12].value = funct
