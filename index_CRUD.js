@@ -229,8 +229,8 @@ function pessoa(condP, oldClass, conjD) {
                     campos[5].value = cpf
                     campos[6].value = rg
                     alert("THAT'S RIGHT")
-                    campos[7].value = "2020-9-9"
-                    campos[9].value = fone.substring(2, 4)
+                    campos[7].value = ""
+                    campos[9].value = ""
                     campos[10].value = email
                     campos[11].value = matricula
                     campos[12].value = funct
